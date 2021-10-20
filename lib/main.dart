@@ -60,34 +60,58 @@ class _MainPageState extends State<MainPage> {
           },
           items: [
             BottomNavigationBarItem(
-              icon: Image.asset(
-                'assets/home_icon.png',
-                width: 27,
-                color: currentIndex == 0 ? colorItem : backgroundColor3,
+              icon: Container(
+                margin: const EdgeInsets.only(
+                  top: 17,
+                ),
+                child: Image.asset(
+                  'assets/home_icon.png',
+                  width: 27,
+                  height: 39,
+                  color: currentIndex == 0 ? colorItem : backgroundColor3,
+                ),
               ),
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Image.asset(
-                'assets/history_icon.png',
-                width: 27,
-                color: currentIndex == 1 ? colorItem : backgroundColor3,
+              icon: Container(
+                margin: const EdgeInsets.only(
+                  top: 17,
+                ),
+                child: Image.asset(
+                  'assets/history_icon.png',
+                  width: 30,
+                  height: 38,
+                  color: currentIndex == 1 ? colorItem : backgroundColor3,
+                ),
               ),
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Image.asset(
-                'assets/activities_icon.png',
-                width: 27,
-                color: currentIndex == 2 ? colorItem : backgroundColor3,
+              icon: Container(
+                margin: const EdgeInsets.only(
+                  top: 17,
+                ),
+                child: Image.asset(
+                  'assets/activities_icon.png',
+                  width: 39,
+                  height: 40,
+                  color: currentIndex == 2 ? colorItem : backgroundColor3,
+                ),
               ),
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Image.asset(
-                'assets/user_icon.png',
-                width: 27,
-                color: currentIndex == 3 ? colorItem : backgroundColor3,
+              icon: Container(
+                margin: const EdgeInsets.only(
+                  top: 17,
+                ),
+                child: Image.asset(
+                  'assets/user_icon.png',
+                  width: 27,
+                  height: 39,
+                  color: currentIndex == 3 ? colorItem : backgroundColor3,
+                ),
               ),
               label: '',
             ),
