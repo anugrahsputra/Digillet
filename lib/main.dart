@@ -62,7 +62,7 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
               icon: Container(
                 margin: const EdgeInsets.only(
-                  top: 17,
+                  top: 12,
                 ),
                 child: Image.asset(
                   'assets/home_icon.png',
@@ -76,7 +76,7 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
               icon: Container(
                 margin: const EdgeInsets.only(
-                  top: 17,
+                  top: 12,
                 ),
                 child: Image.asset(
                   'assets/history_icon.png',
@@ -90,7 +90,7 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
               icon: Container(
                 margin: const EdgeInsets.only(
-                  top: 17,
+                  top: 12,
                 ),
                 child: Image.asset(
                   'assets/activities_icon.png',
@@ -104,7 +104,7 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
               icon: Container(
                 margin: const EdgeInsets.only(
-                  top: 17,
+                  top: 12,
                 ),
                 child: Image.asset(
                   'assets/user_icon.png',
